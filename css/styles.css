@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto" "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #434455;
@@ -17,16 +17,16 @@ a {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo .logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .nav-item {
   font-family: "Roboto", sans-serif;
@@ -36,15 +36,16 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-item:hover {
-  color: #404bbf;
-}
+.nav-item:hover
 .nav-item:focus {
   color: #404bbf;
 }
-.nav-item:active {
+ .nav-item:active {
   color: #404bbf;
   text-decoration: underline;
+}
+.nav-address {
+  font-style: normal;
 }
 .nav-contact {
   font-family: "Roboto", sans-serif;
@@ -64,8 +65,13 @@ a {
   background: #2e2f42;
 }
 .hero-title {
-  color: #fff;
+font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #fff;
 }
 .hero-button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -84,9 +90,9 @@ a {
 .hero-button:focus {
   background: #404bbf;
 }
-.advantages-title {
+/* .advantages-title {
   display: none;
-}
+} */
 .advantages-title-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -107,6 +113,7 @@ a {
   background: #f4f4fd;
 }
 .team-title {
+  text-transform: capitalize
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -114,6 +121,9 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+.team-title-item{
+  background: #fff;
 }
 .team-title-item .team-items {
   font-family: "Roboto", sans-serif;
@@ -125,10 +135,31 @@ a {
   color: #2e2f42;
 }
 .team-title-item .team-text {
-  text-align: center;
-}
+  text-align: center;}
 .portfolio-title {
-  text-align: center;
+  font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.portfolio-item-title {
+  font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;  
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-text {
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+      line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .descr {
   background: #2e2f42;
