@@ -36,9 +36,11 @@ font-family: "Raleway", sans-serif;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-item:hover
-.nav-item:focus {
+.nav-item:hover {
   color: #404bbf;
+}
+.nav-item:focus {
+  
 }
  .nav-item:active {
   color: #404bbf;
@@ -74,8 +76,7 @@ font-family: "Roboto", sans-serif;
   color: #fff;
 }
 .hero-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -90,9 +91,6 @@ font-family: "Roboto", sans-serif;
 .hero-button:focus {
   background: #404bbf;
 }
-/* .advantages-title {
-  display: none;
-} */
 .advantages-title-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -113,7 +111,7 @@ font-family: "Roboto", sans-serif;
   background: #f4f4fd;
 }
 .team-title {
-  text-transform: capitalize
+  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -121,6 +119,7 @@ font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+
 }
 .team-title-item{
   background: #fff;
@@ -137,6 +136,7 @@ font-family: "Roboto", sans-serif;
 .team-title-item .team-text {
   text-align: center;}
 .portfolio-title {
+  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
